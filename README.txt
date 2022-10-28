@@ -5,5 +5,5 @@ faces or identity.
 The user has to create an account and the login details are stored in a MongoDB
 database.
 
-For authentication and security, passwords are encrytped using an npm package
-called mongoose-encryption. 
+For authentication and security, Passport.js is used to add cookies and sessions
+as well as it also hashes and salts a password.
